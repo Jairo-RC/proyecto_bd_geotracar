@@ -137,7 +137,7 @@ Incluidos en `/docs/proyectobd_1_esquema.sql` para crear tablas, relaciones y ll
 
 ## 📚 Manual de usuario y documentación
 
-- Manual de usuario: `/docs/Manual_Usuario.pdf`
+- Manual de usuario: `docs/Manual de Usuario Proyecto#1BD_JairoRodriguez_JefryMorera_SebastianValverde.pdf`
 - Diagrama ERD y documentación adicional en `/docs/`
 
 ---
