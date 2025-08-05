@@ -1,0 +1,105 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 16, 32, 0.82);
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment-modal {
+  background: #182135;
+  color: #f4f7fa;
+  border-radius: 18px;
+  padding: 36px 34px 24px 34px;
+  min-width: 350px;
+  min-height: 200px;
+  box-shadow: 0 8px 48px 0 rgba(24, 33, 53, 0.32);
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.modal-close:hover {
+  color: #f87171;
+}
+.method-switch {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 18px;
+}
+.method-switch label {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.form-group label {
+  font-size: 12px;
+  color: #a6b0d0;
+  margin-bottom: 5px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+.form-group input {
+  background: #141927;
+  color: #fff;
+  border-radius: 7px;
+  border: 1px solid #232f47;
+  padding: 11px 12px;
+  font-size: 16px;
+  outline: none;
+  margin-top: 1px;
+  margin-bottom: 0;
+}
+.form-group input:focus {
+  border: 1.2px solid #6366f1;
+}
+.form-row {
+  display: flex;
+  gap: 12px;
+}
+.btn.primary {
+  background: #10b981;
+  color: #fff;
+  padding: 11px 0;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 12px;
+  font-weight: bold;
+  border: none;
+  transition: background 0.18s;
+}
+.btn.primary:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.input-error {
+  border-color: #ef4444 !important;
+  background: #2b1820 !important;
+}
+.error-msg {
+  color: #ef4444;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: 0;
+  display: block;
+  letter-spacing: 0.2px;
+}
