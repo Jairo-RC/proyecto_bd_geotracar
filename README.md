@@ -153,11 +153,4 @@ Docente: **Efren Jiménez Delgado**
 
 ---
 
-## 💡 Notas
-
-- Si ves advertencias CRLF/LF, revisa el archivo `.gitattributes` incluido.
-- Para soporte, abre un issue o contacta a los autores.
-
----
-
 ¡Gracias por usar GEOTRACAR! 🚚📡
